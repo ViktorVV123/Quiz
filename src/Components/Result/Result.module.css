@@ -1,0 +1,42 @@
+.img{
+    border-radius: 20px;
+    max-width: 150px;
+    max-height: 150px;
+}
+.but{
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.btn {
+
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 0;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    color: #161818;
+    background-color: #8cb4e0;
+}
+
+.btn:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+
+.btn:hover,
+.btn:focus {
+    color: #1c1e1f;
+    border-color: currentColor;
+    background-color: #3294b2;
+}
+
+/* сброс браузерных стилей для фокуса */
+.btn::-moz-focus-inner {
+    border: none;
+}

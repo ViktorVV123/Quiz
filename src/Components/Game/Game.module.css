@@ -1,0 +1,43 @@
+
+.progress {
+/*    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:350px;
+    height:100px;*/
+}
+
+
+
+
+
+
+
+.nendoveb-kubscupon .kacekagen-protsem {
+    width: 0%;
+    height: 5px;
+    background: linear-gradient(to right,rgb(51, 253, 93),rgb(71, 185, 236),rgb(42, 147, 245),rgb(41, 168, 222),rgb(120, 56, 179),rgb(234, 34, 70));
+    margin-top: 10px;
+    background-size: 353px 5px;
+    border-radius: 12px;
+    animation: loading 6s ease-in-out forwards;
+}
+li{
+    margin: 7px;
+    list-style-type: none;
+    border: #1a1616 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+
+    display: block;
+    text-align: center;
+    line-height:30px;
+
+}
+li:hover {
+    transform: skew(-10deg);
+}
+li:active {
+    background-color: #40c1cc;
+}
