@@ -14,7 +14,7 @@ export const Result = (props:resultType) => {
         <div className={style.result}>
             {props.correct > 4 ? <img className={style.img} src = {yes}/> :  <img className={style.img} src={noo} />}
 
-            <h2>Правильно ответили на {props.correct < 4 ? <div style={{color:'red'}}>{props.correct}</div> : <div style={{color:'blue'}}>{props.correct}</div>} из 6 </h2>
+            <h2>Правильно ответили на {props.correct < 5 ? <div style={{color:'red'}}>{props.correct}</div> : <div style={{color:'blue'}}>{props.correct}</div>} из 6 </h2>
             <a href='/Quiz/'>
             <button className={style.btn}>попробовать снова</button>
             </a>
